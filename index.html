@@ -222,48 +222,48 @@
         <div id="results-carousel" class=" carousel results-carousel">        
           <div class="item item-family">
             <video poster="" id="family" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/first1.mp4"
+              <source src="./static/videos/first/first1.mp4"
                       type="video/mp4">
             </video>
           </div>          
           <div class="item item-horse">
             <video poster="" id="horse" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/first2.mp4"
+              <source src="./static/videos/first/first2.mp4"
                       type="video/mp4">
             </video>
           </div>
           <div class="item item-barn">
             <video poster="" id="barn" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/first3.mp4"
+              <source src="./static/videos/first/first3.mp4"
                       type="video/mp4">
             </video>
           </div>
           <div class="item item-ignatius">
             <video poster="" id="ignatius" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/first4.mp4"
+              <source src="./static/videos/first/first4.mp4"
                       type="video/mp4">
             </video>
           </div>
-          <!-- <div class="item item-room">
+          <div class="item item-room">
             <video poster="" id="room" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/5.mp4"
+              <source src="./static/videos/first/first5.mp4"
                       type="video/mp4">
             </video>
           </div>
           <div class="item item-guanyin">
             <video poster="" id="guanyin" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/6.mp4"
+              <source src="./static/videos/first/first6.mp4"
                       type="video/mp4">
             </video>
           </div>
           <div class="item item-car">
             <video poster="" id="car" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/dac9_3_view.mp4"
+              <source src="./static/videos/first/first7.mp4"
                       type="video/mp4">
             </video>
           </div>
 
-          <div class="item item-Mars0">
+          <!-- <div class="item item-Mars0">
             <video poster="" id="horse" autoplay controls muted loop playsinline height="100%">
               <source src="./static/videos/Mars_0.mp4"
                       type="video/mp4">
@@ -308,7 +308,8 @@
     <div class="container is-max-desktop">
       <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
+        <!-- <div class="column is-four-fifths"> -->
+          <div class="column is-full-width">
           <h2 class="title is-3">Overview</h2>
           <div class="content has-text-justified">
             <img src="./static/images/teaser.png" width="100%">
@@ -392,38 +393,35 @@ Experimental results show that our approach outperforms video synthesis models t
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="section">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-full-width">
-          <h2 class="title is-3">Free-view rendering results on in-the-wild data</h2>
+          <h2 class="title is-3">Compare MarsGen results with ground truth</h2>
           <div class="content has-text-justified">
             <div class="column is-four-fifths"></div>
               <div class="has-text-centered">
                 <video controls autoplay muted loop>
-                  <source src="static/videos/demo1_concat.mp4" type="video/mp4">
+                  <source src="static/videos/compare1.mp4" type="video/mp4">
                 </video>
                 <video controls autoplay muted loop>
-                  <source src="static/videos/demo2_concat.mp4" type="video/mp4">
+                  <source src="static/videos/compare2.mp4" type="video/mp4">
                 </video>
                 <video controls autoplay muted loop>
-                  <source src="static/videos/demo3_concat.mp4" type="video/mp4">
+                  <source src="static/videos/compare3.mp4" type="video/mp4">
                 </video>
                 
 
                 <video controls autoplay muted loop>
-                  <source src="static/videos/demo5_concat.mp4" type="video/mp4">
+                  <source src="static/videos/compare4.mp4" type="video/mp4">
                 </video>
                 <video controls autoplay muted loop>
-                  <source src="static/videos/demo6_concat.mp4" type="video/mp4">
+                  <source src="static/videos/compare5.mp4" type="video/mp4">
                 </video>
                 <video controls autoplay muted loop>
-                  <source src="static/videos/demo7_concat.mp4" type="video/mp4">
-                </video>
-                <video controls autoplay muted loop>
-                  <source src="static/videos/demo4_concat.mp4" type="video/mp4">
+                  <source src="static/videos/compare6.mp4" type="video/mp4">
                 </video>
                 
               </div>
@@ -434,8 +432,46 @@ Experimental results show that our approach outperforms video synthesis models t
       </div>
 
     </div>
-  </section> -->
+  </section> 
 
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Visual Comparisons</h2>
+          <div class="content has-text-justified">
+            <div class="column is-four-fifths"></div>
+              <div class="has-text-centered">
+                <video controls autoplay muted loop>
+                  <source src="static/videos/concat_compare1.mp4" type="video/mp4">
+                </video>
+                <video controls autoplay muted loop>
+                  <source src="static/videos/concat_compare2.mp4" type="video/mp4">
+                </video>
+                <video controls autoplay muted loop>
+                  <source src="static/videos/concat_compare3.mp4" type="video/mp4">
+                </video>
+                
+<!-- 
+                <video controls autoplay muted loop>
+                  <source src="static/videos/compare4.mp4" type="video/mp4">
+                </video>
+                <video controls autoplay muted loop>
+                  <source src="static/videos/compare5.mp4" type="video/mp4">
+                </video>
+                <video controls autoplay muted loop>
+                  <source src="static/videos/compare6.mp4" type="video/mp4">
+                </video> -->
+                
+              </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section> 
 
 
 
